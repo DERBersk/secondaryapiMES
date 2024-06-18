@@ -1,0 +1,11 @@
+Flask==2.2.2
+flask-cors
+flask_sqlalchemy
+datetime
+faker
+Werkzeug==2.2.2
+psycopg2-binary
+apscheduler
+pycountry
+xlrd
+pandas
