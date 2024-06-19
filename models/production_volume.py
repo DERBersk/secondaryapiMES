@@ -2,7 +2,7 @@ from extensions import db
 import datetime
 
 class ProductionVolume(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.String(20), primary_key=True)
     product_id = db.Column(db.Integer, db.ForeignKey('product.id'), nullable=False)
     date = db.Column(db.Date, nullable=False)
     amount = db.Column(db.Float, nullable=False)
